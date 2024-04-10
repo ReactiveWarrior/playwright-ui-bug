@@ -1,10 +1,13 @@
 {
   "dependencies": {
-    "create-playwright": "^1.17.132"
+    "create-playwright": "^1.17.132",
+    "express": "^4.19.2"
   },
   "devDependencies": {
     "@playwright/test": "^1.43.0",
     "@types/node": "^20.12.7"
   },
-  "scripts": {}
+  "scripts": {
+    "start": "node app.ts"
+  }
 }
